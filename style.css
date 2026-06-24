@@ -1,7 +1,31 @@
 body {
-    background-color: #F5F5F5;
+    background-color: #F3E4C9;
 }
 
 nav {
-    background-color: #DFF1F1;
+    background-color: #0A2947;
+}
+
+#headshot {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#hero {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h3 {
+    color: #0A2947;
+}
+
+.socialMedia {
+    display: inline;
+}
+
+#footer {
+    text-align: center;
 }
