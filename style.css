@@ -1,3 +1,7 @@
+.container {
+    display: flex;
+}
+
 body {
     background-color: #F3E4C9;
 }
@@ -12,7 +16,7 @@ nav {
     border-radius: 50%;
 }
 
-#hero {
+.hero {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
@@ -26,6 +30,18 @@ h3 {
     display: inline;
 }
 
-#footer {
+.footer {
     text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;
 }
